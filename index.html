@@ -1,1 +1,120 @@
-<!doctype html><meta charset='utf-8'><title>ATG Visual Guide</title><p>Source HTML not found.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATG Minimalistic Workout – Visual Guide (Grouped + Checklists)</title>
+<style>
+  :root { --fg:#111; --muted:#666; --bg:#fff; --card:#f8f8f8; --brand:#0b62f5; }
+  * { box-sizing:border-box; }
+  body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; color: var(--fg); background: var(--bg);}
+  h1 { margin: 0 0 4px; font-size: 26px; }
+  h2 { margin: 20px 0 10px; font-size: 20px; }
+  .sub { color: var(--muted); margin: 0 0 16px; }
+  .section-title { display:flex; align-items:baseline; gap:12px; margin-top:26px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .card { display:flex; align-items:center; gap:12px; background: var(--card); border-radius: 12px; padding: 10px; text-decoration:none; color:inherit; box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+  .card .box { width: 18px; height: 18px; accent-color: var(--brand); margin: 0 2px 0 0; flex: none; }
+  .thumb { width: 120px; height: 90px; border-radius: 8px; overflow: hidden; background:#ddd; flex: none; display:block; }
+  .thumb img { width:100%; height:100%; object-fit: cover; display:block; }
+  .meta h3 { margin: 0 0 6px; font-size: 16px; }
+  .meta .sr { margin:0 0 8px; color: var(--muted); font-size: 13px; }
+  .meta .link { margin:0; font-size: 12px; color: var(--brand); }
+  .group { margin-top: 16px; }
+  .onepager { border:1px solid #e9e9e9; border-radius:14px; padding:16px; margin-bottom:22px; background:#fafafa; }
+  .summary-block { margin-top: 12px; }
+  .sum-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:8px; }
+  .sum-item { display:flex; align-items:center; gap:8px; padding:6px 8px; border-radius:8px; background:#fff; border:1px solid #eee; }
+  .sum-item input { accent-color: var(--brand); }
+  .sum-item em { margin-left:auto; color:var(--muted); font-style:normal; font-size:12px; }
+  .print-tip { color: var(--muted); font-size: 12px; margin-top: 10px; }
+  @media print {
+     body { margin: 10mm; }
+     .thumb { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+     .onepager { page-break-after: always; }
+     .meta .link { display:none; }
+  }
+</style>
+</head>
+<body>
+  <section class="onepager">
+    <h1>ATG Minimalistic Workout — One-Page Summary</h1>
+    <p class="sub">Frequency: 2×/week • Focus: pain-free strength-through-mobility. Controlled tempo. Progress reps → then load/ROM.</p>
+    <section class="summary-block">
+      <h2>Workout 1</h2>
+      <div class="sum-grid">
+        <label class="sum-item"><input type="checkbox"> <span>Resisted Forward & Backward</span> <em>3 × burn</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Tibialis Raises</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>KOT Calf Raise</span> <em>2 × 10</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Slant Step-up</span> <em>2 × 25</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Nordic Ham Curl (or Nordic Negative)</span> <em>2 × 8</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Heels-Elevated Squat (5-sec down)</span> <em>5 × 5</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Hanging Knee Raise</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Cossack Squat</span> <em>2 × 8</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>4-Way Leg Swings</span> <em>1 × 10 each</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Full Pull-up</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Full Shoulder Press</span> <em>1 × up to 12</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Rings Face Pull</span> <em>1 × 15</em></label>
+      </div>
+    </section>
+    <section class="summary-block">
+      <h2>Workout 2</h2>
+      <div class="sum-grid">
+        <label class="sum-item"><input type="checkbox"> <span>Resisted Forward & Backward</span> <em>3 × burn</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Tibialis Raises</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>KOT Calf Raise</span> <em>2 × 10</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Slant Step-up</span> <em>2 × 25</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Back Extension</span> <em>2 × 15</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>ATG Split Squat</span> <em>4 × 8</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Romanian Deadlift (RDL)</span> <em>4 × 8</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>L-Sit Leg Extension</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>QL Side Bend</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>4-Way Leg Swings</span> <em>1 × 10 each</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Rings Row</span> <em>1 × 12</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Full Push-up</span> <em>1 × burnout</em></label>
+        <label class="sum-item"><input type="checkbox"> <span>Rings Face Pull</span> <em>1 × up to 15</em></label>
+      </div>
+    </section>
+    <p class="print-tip">Tip: In the print dialog, choose <b>Only this page</b> to save the summary as its own one-pager.</p>
+  </section>
+
+  <section class="group">
+    <div class="section-title"><h2>Workout 1</h2><p class="sub">Click any image to watch the demo. Check off as you go.</p></div>
+    <div class="grid">
+      <!-- Cards for Workout 1 -->
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=BGoW1IQ4y2E" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/BGoW1IQ4y2E/hqdefault.jpg" alt="Resisted Forward & Backward"></a><div class="meta"><h3>1. Resisted Forward & Backward</h3><p class="sr">3 × burn</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=fA9s89zDW0g" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/fA9s89zDW0g/hqdefault.jpg" alt="Tibialis Raises"></a><div class="meta"><h3>2. Tibialis Raises</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=vtbZWVMHm8c" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/vtbZWVMHm8c/hqdefault.jpg" alt="KOT Calf Raise"></a><div class="meta"><h3>3. KOT Calf Raise</h3><p class="sr">2 × 10</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=HQQxNY8nKYs" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/HQQxNY8nKYs/hqdefault.jpg" alt="Slant Step-up"></a><div class="meta"><h3>4. Slant Step-up</h3><p class="sr">2 × 25</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=IKJTQR8Roio" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/IKJTQR8Roio/hqdefault.jpg" alt="Nordic Ham Curl (or Nordic Negative)"></a><div class="meta"><h3>5. Nordic Ham Curl (or Nordic Negative)</h3><p class="sr">2 × 8</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=GO_q0NnMpCo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/GO_q0NnMpCo/hqdefault.jpg" alt="Heels-Elevated Squat (5-sec down)"></a><div class="meta"><h3>6. Heels-Elevated Squat (5-sec down)</h3><p class="sr">5 × 5</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=l7OroezzX9k" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/l7OroezzX9k/hqdefault.jpg" alt="Hanging Knee Raise"></a><div class="meta"><h3>7. Hanging Knee Raise</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=GO_q0NnMpCo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/GO_q0NnMpCo/hqdefault.jpg" alt="Cossack Squat"></a><div class="meta"><h3>8. Cossack Squat</h3><p class="sr">2 × 8</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=oqCT1fjD-cw" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/oqCT1fjD-cw/hqdefault.jpg" alt="4-Way Leg Swings"></a><div class="meta"><h3>9. 4-Way Leg Swings</h3><p class="sr">1 × 10 each</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=XeErfmGSwfE" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/XeErfmGSwfE/hqdefault.jpg" alt="Full Pull-up"></a><div class="meta"><h3>10. Full Pull-up</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=B-aVuyhvLHU" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/B-aVuyhvLHU/hqdefault.jpg" alt="Full Shoulder Press"></a><div class="meta"><h3>11. Full Shoulder Press</h3><p class="sr">1 × up to 12</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=lm4Nt-N6qUk" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/lm4Nt-N6qUk/hqdefault.jpg" alt="Rings Face Pull"></a><div class="meta"><h3>12. Rings Face Pull</h3><p class="sr">1 × 15</p><p class="link">Watch demo</p></div></label>
+    </div>
+  </section>
+
+  <section class="group">
+    <div class="section-title"><h2>Workout 2</h2><p class="sub">Same structure; prioritize pain-free ROM and quality.</p></div>
+    <div class="grid">
+      <!-- Cards for Workout 2 -->
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=BGoW1IQ4y2E" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/BGoW1IQ4y2E/hqdefault.jpg" alt="Resisted Forward & Backward"></a><div class="meta"><h3>1. Resisted Forward & Backward</h3><p class="sr">3 × burn</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=fA9s89zDW0g" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/fA9s89zDW0g/hqdefault.jpg" alt="Tibialis Raises"></a><div class="meta"><h3>2. Tibialis Raises</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=vtbZWVMHm8c" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/vtbZWVMHm8c/hqdefault.jpg" alt="KOT Calf Raise"></a><div class="meta"><h3>3. KOT Calf Raise</h3><p class="sr">2 × 10</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=HQQxNY8nKYs" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/HQQxNY8nKYs/hqdefault.jpg" alt="Slant Step-up"></a><div class="meta"><h3>4. Slant Step-up</h3><p class="sr">2 × 25</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=ph3pddpKzzw" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/ph3pddpKzzw/hqdefault.jpg" alt="Back Extension"></a><div class="meta"><h3>5. Back Extension</h3><p class="sr">2 × 15</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=f8t6QNdffwI" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/f8t6QNdffwI/hqdefault.jpg" alt="ATG Split Squat"></a><div class="meta"><h3>6. ATG Split Squat</h3><p class="sr">4 × 8</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=2SHsk9AzdjA" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/2SHsk9AzdjA/hqdefault.jpg" alt="Romanian Deadlift (RDL)"></a><div class="meta"><h3>7. Romanian Deadlift (RDL)</h3><p class="sr">4 × 8</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=GhS4RkqCOGo" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/GhS4RkqCOGo/hqdefault.jpg" alt="L-Sit Leg Extension"></a><div class="meta"><h3>8. L-Sit Leg Extension</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=FkWLkq9xUVE" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/FkWLkq9xUVE/hqdefault.jpg" alt="QL Side Bend"></a><div class="meta"><h3>9. QL Side Bend</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=oqCT1fjD-cw" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/oqCT1fjD-cw/hqdefault.jpg" alt="4-Way Leg Swings"></a><div class="meta"><h3>10. 4-Way Leg Swings</h3><p class="sr">1 × 10 each</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=xhlReCpAE9k" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/xhlReCpAE9k/hqdefault.jpg" alt="Rings Row"></a><div class="meta"><h3>11. Rings Row</h3><p class="sr">1 × 12</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=_l3ySVKYVJ8" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/_l3ySVKYVJ8/hqdefault.jpg" alt="Full Push-up"></a><div class="meta"><h3>12. Full Push-up</h3><p class="sr">1 × burnout</p><p class="link">Watch demo</p></div></label>
+      <label class="card"><input type="checkbox" class="box"><a class="thumb" href="https://www.youtube.com/watch?v=lm4Nt-N6qUk" target="_blank" rel="noopener"><img src="https://i.ytimg.com/vi/lm4Nt-N6qUk/hqdefault.jpg" alt="Rings Face Pull"></a><div class="meta"><h3>13. Rings Face Pull</h3><p class="sr">1 × up to 15</p><p class="link">Watch demo</p></div></label>
+    </div>
+  </section>
+</body>
+</html>
